@@ -1,22 +1,37 @@
 # HEVO 3D-Printer with Linear Rails
 ## About This Project
-This project is an adaptation and build of the HyperCube Evolution (HEVO) project by SCOTT_3D. The goal was to build a modified version of the HEVO printer with increased height for a larger build volume in the Z-axis, as well as incorporating a compartment for housing the electronics at the lower section. Additionally the kinematics of the printer where upgraded from the orginal linear rods to MGN Linear rails. In the repository, the CAD files, STLs used, BOMs and Marlin files can be found.     
+This project is an adaptation and build of the HyperCube Evolution (HEVO) project by SCOTT_3D. The goal was to build a modified version of the HEVO printer with increased height for a larger build volume in the Z-axis, as well as incorporating a compartment for housing the electronics at the lower section. Additionally the kinematics of the printer have been upgraded from the orginal linear rods to MGN Linear rails. In the repository, the CAD files, documentation, STLs, BOMs and Marlin files can be found.     
 
 ## Electronics
-The electronics used in this project differ from the original design and are in the compartment at the lower section of the frame. For the mainboard, the BIGTREETECH SKR PRO V1.1 Control Board with TMC2209 drivers was chosen since it has alot of room for expandability and future upgrades. To board is running Marlin 2.0, and the fork can be found here. Paired with that 
+The electronics used in this project differ from the original design and are in the compartment at the lower section of the frame. For the mainboard, the BIGTREETECH SKR PRO V1.1 Control Board with TMC2209 drivers was chosen since it has alot of room for expandability and future upgrades. The board is running Marlin 2.0, and the fork can be found here.
 
-- BIGTREETECH SKR PRO V1.1 Control Board with TMC2209 drivers
-- BIGTREETECH TFT35 V3.0 LCD Touch Screen with WiFi Board
-- Trianglelab BMG extruder + V6 Hotend
-- 300x300 Magnetic Heated Bed
-- BLTOUCH Auto Bed Leveling Sensor
-- Nema17 Stepper Motors
+| Component  | Description | Link |
+| ------------- | ------------- | ------------- |
+| BIGTREETECH SKR PRO V1.1 Control Board  | Content Cell  | Link |
+| Trianglelab BMG extruder  | Content Cell  | Link |
+| Trianglelab V6 Hotend  | Content Cell  | Link |
+| 300x300 Magnetic Heated Bed  | Content Cell  | Link |
+| BLTOUCH Auto Bed Leveling Sensor | Content Cell  | Link |
+| 2 × NEMA17 0.9 Degree Stepper Motor - 40mm  | Content Cell  | Link |
+| BIGTREETECH Smart Filament Sensor Break Detection Module BTT SFS V1.0 Monitor | Content Cell  | Link |
+| 2 × NEMA17 Stepper Motor With Attached Lead Screw- 40mm  | Content Cell  | Link |
 
 ## Frame
-The frame for this printer was purchased and laser cut from MISUMI, with overall dimensions of 700x450x440mm. The frame is designed to provide stability and support for the printer components.
+The frame for this printer was purchased and laser cut from MISUMI, with overall dimensions of 440x450x700(mm). The frame is designed to provide stability and support for the printer components. The orginal build volume of SCOTT_3D design is 300x300x300(mm), and has been upgraded to 300x300x450(mm), with additional 200mm of extrustion in the lower compartment for the electroincs using the HEVO excel configurator.
+
+| Extrution (mm) | Type | Quantity |
+| ------------- | ------------- | ------------- |
+| 420 | 3030 Black Alu profiles | 6 |
+| 410 | 3030 Black Alu profiles | 8 |
+| 700 | 3030 Black Alu profiles | 4 |
+| 415 | 2020 Black Alu profiles | 2 |
+| 235 | 2020 Black Alu profiles | 2 |
 
 ## Linear Rail Upgrade
 To improve the printer's performance, the linear rod rails used in the original design were upgraded to linear rails. This upgrade was implemented using a project found at [https://www.thingiverse.com/thing:2839395]. Additionally, a custom bracket was designed to mount the Trianglelab BMG extruder + V6 Hotend. The CAD files for these upgrades are available in the repository.
+
+## Octoprint
+OctoPrint is a web interface for controlling and monitoring the printer remotely, and is hosted on a Raspberry Pi 4. To compliment the web interface, a 7-inch touch screen LCD is paired with the Pi to access the files using OctoDock. The following plugins are being used:
 
 ## Quality of Life Upgrades
 Several quality of life upgrades were implemented to enhance the overall usability of the printer. These include:
