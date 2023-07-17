@@ -27,6 +27,6 @@ OctoPrint, a web interface for controlling and monitoring the printer remotely, 
 This project is based on and adapted from the HyperCube Evolution project by SCOTT_3D. I would like to express my gratitude to SCOTT_3D for providing the inspiration and foundation for this project, as well as all the remixes that contributed to making it possible.
 
 ## License
-The design files and documentation in this repository are licensed under [INSERT LICENSE HERE]. Please review the license file for more information.
+The design files and documentation in this repository are licensed under MIT LICENSE. Please review the license file for more information.
 
 Feel free to explore the repository and utilize the resources provided to build and customize your own version of the printer. If you have any questions or suggestions, please don't hesitate to reach out. Happy printing!
