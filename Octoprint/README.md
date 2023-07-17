@@ -3,17 +3,17 @@ OctoPrint is a web interface for remotely controlling and monitoring the printer
 
 ## Dashboard
 
-![/assets/images/Octoprint/Dashboard1.png]
-![/assets/images/Octoprint/Dashboard2.png]
-![/assets/images/Octoprint/Dashboard3.png]
+![Dashboard1](/assets/images/Octoprint/Dashboard1.png)
+![Dashboard2](/assets/images/Octoprint/Dashboard2.png)
+![Dashboard3](/assets/images/Octoprint/Dashboard3.png)
 
 ## Display
 The OctoDash plugin is utilized to provide a simplified interface for OctoPrint, making it easier to access and manage print files directly at the printer once they have been uploaded.
 
-![/assets/images/Octoprint/OctoDash1.png]
-![/assets/images/Octoprint/OctoDash2.png]
+![OctoDash1](/assets/images/Octoprint/OctoDash1.png)
+![OctoDash2](/assets/images/Octoprint/OctoDash2.png)
 
 ## Webcam
 
-![/assets/images/Octoprint/WebCam.png]
-![/assets/images/Octoprint/WebCam_preview.png]
+![WebCam](/assets/images/Octoprint/WebCam.png)
+![WebCam_preview](/assets/images/Octoprint/WebCam_preview.png)

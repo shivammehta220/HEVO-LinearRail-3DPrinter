@@ -15,14 +15,14 @@ In this section, you can find the manuals and repositories related to the electr
 ## Electronics Compartment
 The electronics compartment houses all the printer's electronics. It is enclosed with printed side panels and features cutouts for the power outlet, Ethernet, and both the RepRap display and the display for OctoPrint.
 
-![/assets/images/Electronics/Power_outlet.png]
-![/assets/images/Electronics/Displays.png]
+![Power_outlet](/assets/images/Electronics/Power_outlet.png)
+![Displays](/assets/images/Electronics/Displays.png)
 
 ## RGBW LED, 12V Regulator and Controller
 To provide visualization of the print bed during prints and indicate the print status, RGBW LEDs are mounted on the 3030 extrusion frame. The LED strips themselves cannot be controlled by the SKR PRO V1.1 Control Board directly, so a basic MOSFET control circuit is used to turn the LEDs on and off. Additionally, since the power supply unit (PSU) operates at 24V, a 12V regulator is added to power the LEDs and other accessories (fans).
 
-![/assets/images/Electronics/LEDS.png]
-![/assets/images/Electronics/LEDS_Controller.png]
+![LEDS](/assets/images/Electronics/LEDS.png)
+![LEDS_Controller](/assets/images/Electronics/LEDS_Controller.png)
 
 The LEDs are connected to unused pins on the SKR PRO V1.1 Control Board, and the corresponding lines in the Marlin firmware are enabled to support LED control.
 ```
@@ -60,4 +60,4 @@ The LEDs are connected to unused pins on the SKR PRO V1.1 Control Board, and the
 ## Smart Filament Sensor
 The BIGTREETECH Smart Filament Sensor is not your typical mechanical or optical sensor. It is capable of detecting filament movement, allowing it to prevent false positives in case of filament breakage.
 
-![/assets/images/Electronics/Filament_Sensor.png]
+![Filament_Sensor](/assets/images/Electronics/Filament_Sensor.png)
