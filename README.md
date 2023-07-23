@@ -5,20 +5,20 @@ This project is an adaptation and build of the HyperCube Evolution (HEVO) projec
 
 The repository contains CAD files, documentation, STLs, BOMs, and Marlin files related to this project.    
 
-## Electronics
+## [Electronics](/Electronics/README.md)
 The electronics used in this project differ from the original design. They are all securely mounted using standoffs in the lower compartment of the frame. For the mainboard, the BIGTREETECH SKR PRO V1.1 Control Board with TMC2209 drivers was selected due to its ample room for expandability and future upgrades. The board is running Marlin 2.0, and the customized fork can be [found here](https://github.com/shivammehta220/Marlin/tree/HEVO).
 
 ![Compartment](/assets/images/Compartment.png)
 
-## Frame
+## [Frame](/Design/README.md)
 The printer's frame was purchased and laser-cut from MISUMI, with overall dimensions of 440x450x700 mm. The frame is designed to provide stability and support for the printer components. The original build volume of SCOTT_3D's design is 300x300x300 mm, but it has been upgraded to 300x300x450 mm, with an additional 200 mm of extrusion in the lower section for housing the electronics. All printed components are made using PETG filament. The STLs and CAD files for all the components used, as well as the Hypercube configurator for the build layout, can be found in the Design folder of this repository.
 
-## Linear Rail Upgrade
+## [Linear Rail Upgrade](/Design/README.md)
 To enhance the printer's performance, the linear rod rails used in the original design were replaced with linear rails. This upgrade was implemented using a project found at [https://www.thingiverse.com/thing:2839395]. Additionally, a custom bracket was designed to mount the Trianglelab BMG extruder + V6 Hotend. The CAD files for these upgrades are available in the Design folder of this repository.
 
 ![Extruder](/assets/images/CAD/Extruder.png)
 
-## Octoprint
+## [Octoprint](/Octoprint/README.md)
 OctoPrint, a web interface for controlling and monitoring the printer remotely, is hosted on a Raspberry Pi 4. To complement the web interface, a 7-inch touch screen LCD is paired with the Pi to access the files. All plugins and settings for OctoPrint can be found in the OctoPrint folder of this repository, along with their corresponding links and documentations.
 
 ![Dashboard1](/assets/images/Octoprint/Dashboard1.png)
